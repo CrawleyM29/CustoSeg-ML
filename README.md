@@ -106,15 +106,15 @@ Based on our gap statistic results, k = 6 as our optimal cluster.
 
 As we observe our results, we can see a lit with several key information:
 
-**cluster*: A vector of several integers that denote the cluster which has an allocation for each point.
+* cluster: A vector of several integers that denote the cluster which has an allocation for each point.
 
-*totss: Represents the total sum of squares
+* totss: Represents the total sum of squares
 
-*centers: A matrix comprising of numerous cluster centers
+* centers: A matrix comprising of numerous cluster centers
 
-*withinss: A vector that presents the intra-cluster sum of squares having one component per cluster
+* withinss: A vector that presents the intra-cluster sum of squares having one component per cluster
 
-*betweenss: The sum of between-cluster squares
+* betweenss: The sum of between-cluster squares
 
 *size: The total number of points that each cluster holds
 
@@ -132,29 +132,29 @@ Standard Deviation is drastic between PC1/PC2 and PC3.  PC1 and PC2 both have ar
 
 Our virst Mall Customer K-mean visuals shows that there is a distribution of 6 clusters:
 
-   *Cluster 6 and 4*: Representing the customer_data with the medium income salary as well as the medium annual spend of salary.
+   * Cluster 6 and 4: Representing the customer_data with the medium income salary as well as the medium annual spend of salary.
 
-   *Cluster 1*: Represents the customer_data having a high annual income with high yearly spending.
+   * Cluster 1: Represents the customer_data having a high annual income with high yearly spending.
 
-   *Cluster 3*: Denoting the customer_data with low annual income with a low yearly spending of income
+   * Cluster 3: Denoting the customer_data with low annual income with a low yearly spending of income
 
-   *Cluster 2*: Denotes a high annual income and low yearly spending.
+   * Cluster 2: Denotes a high annual income and low yearly spending.
 
-   *Cluster 5*: Represening a low annual income with a high yearlt spending.
+   * Cluster 5: Represening a low annual income with a high yearlt spending.
 
 ### PCA1 and PCA2 k-means Results
 
 ![k-means clusters for PCA1 and PCA2](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/k-means%20cluster.JPG)
 
-   *Cluster 4 and 1*: These two clusters shows the customers with medium PCA1 and medium PCA2 scores
+   + Cluster 4 and 1: These two clusters shows the customers with medium PCA1 and medium PCA2 scores
 
-   *Cluster 6*: Representing customers with a high PCA2 and a low PCA1 score
+   + Cluster 6: Representing customers with a high PCA2 and a low PCA1 score
 
-   *Cluster 5*: Customers with a medium PCA1 and a low PCA2 score
+   + Cluster 5: Customers with a medium PCA1 and a low PCA2 score
 
-   *Cluster 3*: Customers with a high PCA1 income and a high PCA2
+   + Cluster 3: Customers with a high PCA1 income and a high PCA2
 
-   *Cluster 2*: Customers with a high PCA2 and a medium annual spend of income.
+   + Cluster 2: Customers with a high PCA2 and a medium annual spend of income.
     
 Clustering can help stakeholders understand the variables a lot better, promoting better business decisions. With identifying customers, organizations can create and release products and services that aim more towards customers based on several parameters like spending patterns, age, and income. Based on our clustering, customers with a medium income spends more regularly based on their medium annual spending of their salary. 
 
