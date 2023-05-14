@@ -40,5 +40,17 @@ We now want to see what the annual income of our customers at the Mall is throug
 
 ![Annual Income Density Plot](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Annual%20Income%20Density%20Plot.JPG)
 
+The results from our descriptive analysis, we can see that the minimum income of our Mall customers is 15 and the maximum income is 137. Customers earning  an average of 10 also have the highest frequency count which means they are spending more.  Average salary of our customers is 60.56 as well, a good think to note to our stakeholders. The results from the Kernal Density Plot  shows that the annual income has a normal distribution.  Lets take a look at customer spending.
+
+## Customer Spending Analysis
+
+It's important to most stakeholders to know how much customers are spending on average.
+
+![Spending Analysis Boxplot](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/SpendingScore%20Boxplot.JPG)
+
+![Spending Analysis HistoGram](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/SpendingScore%20HistoGram.JPG)
+
+Looking at our two visuals, the minimum spending is 1, a max sore of 99 in spending, with an average of our customers spending 50.20 via our boxplot. Our Descriptive Analysis of Spending is that minimum is 1, maximum is 99, and having an average spending score of 50.20.  The histogram shows that the customers between 40 and 50 of age is our highest spenders among all of the other age groups with a score of 40.
+
 
 
