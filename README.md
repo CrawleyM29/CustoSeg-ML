@@ -117,3 +117,28 @@ As we observe our results, we can see a lit with several key information:
 **betweenss*: The sum of between-cluster squares
 
 **size*: The total number of points that each cluster holds
+
+## Visualizing the Clustering Results using the First Two Principle Components
+
+Lets take a look at the principal component analysis.
+
+![Components and Rotation](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/visual%20for%201st%20two%20principle%20components%202.JPG)
+
+Standard Deviation is drastic between PC1/PC2 and PC3.  PC1 and PC2 both have around 26.0 while PC3 has 12.93. Looking at juct the rotation of PC1 and PC2 since they are closer in points, Age, Annual Income, and Spending Score is similar as well when it comes to range.
+
+### Segments of Mall Customers K-means Clustering
+
+![Mall Customers K-means](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Segment%20Mall%20Customers%20kmeans%20clustering.JPG)
+
+Our virst Mall Customer K-mean visuals shows that there is a distribution of 6 clusters:
+
+**Cluster 6 and 4*: Representing the customer_data with the medium income salary as well as the medium annual spend of salary.
+
+**Cluster 1*: Represents the customer_data having a high annual income with high yearly spending.
+
+**Cluster 3*: Denoting the customer_data with low annual income with a low yearly spending of income
+
+**Cluster 2*: Denotes a high annual income and low yearly spending.
+
+**Cluster 5*: Represening a low annual income with a high yearlt spending.
+
