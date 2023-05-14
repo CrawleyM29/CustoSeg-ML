@@ -106,9 +106,14 @@ Based on our gap statistic results, k = 6 as our optimal cluster.
 
 As we observe our results, we can see a lit with several key information:
 
-+*cluster*: A vector of several integers that denote the cluster which has an allocation for each point.
--**totss**: Represents the total sum of squares
--**centers**: A matrix comprising of numerous cluster centers
--**withinss**: A vector that presents the intra-cluster sum of squares having one component per cluster
--**betweenss**: The sum of between-cluster squares
--**size**: The total number of points that each cluster holds
+**cluster*: A vector of several integers that denote the cluster which has an allocation for each point.
+
+**totss*: Represents the total sum of squares
+
+**centers*: A matrix comprising of numerous cluster centers
+
+**withinss*: A vector that presents the intra-cluster sum of squares having one component per cluster
+
+**betweenss*: The sum of between-cluster squares
+
+**size*: The total number of points that each cluster holds
