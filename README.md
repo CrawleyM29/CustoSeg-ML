@@ -105,7 +105,8 @@ Based on our gap statistic results, k = 6 as our optimal cluster.
 ![k6 clustering](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/k6%20cluster%20results.JPG)
 
 As we observe our results, we can see a lit with several key information:
--**cluster**: A vector of several integers that denote the cluster which has an allocation for each point.
+
++*cluster*: A vector of several integers that denote the cluster which has an allocation for each point.
 -**totss**: Represents the total sum of squares
 -**centers**: A matrix comprising of numerous cluster centers
 -**withinss**: A vector that presents the intra-cluster sum of squares having one component per cluster
