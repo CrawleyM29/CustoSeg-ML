@@ -88,3 +88,26 @@ Using the average silhouette method can help us measure the quality of our clust
 
 ![k10 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k10%200.38.JPG)
 
+Now we can push a visual to showcase the optimal number of clusters by using fviz_nbclust() function
+
+![Optimal Number of Clusters](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/OptimalNum%20of%20Clusters.JPG)
+
+Perfect! We now can see that the optimal cluster is 6. We can use this information and move forward to the gap statistics method.
+
+### Gap Statistic Method
+
+We can use the gap statistic method to any clustering method like hierarchical clustering, K-means etc. Using this method can help compare the total intracluster variation for different values of k along with the expected values under the null reference distribution of data.
+
+![Gap Statistic (k)](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/stat_gap%20visual.JPG)
+
+Based on our gap statistic results, k = 6 as our optimal cluster.
+
+![k6 clustering](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/k6%20cluster%20results.JPG)
+
+As we observe our results, we can see a lit with several key information:
+-**cluster**: A vector of several integers that denote the cluster which has an allocation for each point.
+-**totss**: Represents the total sum of squares
+-**centers**: A matrix comprising of numerous cluster centers
+-**withinss**: A vector that presents the intra-cluster sum of squares having one component per cluster
+-**betweenss**: The sum of between-cluster squares
+-**size**: The total number of points that each cluster holds
