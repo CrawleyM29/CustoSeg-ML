@@ -132,13 +132,32 @@ Standard Deviation is drastic between PC1/PC2 and PC3.  PC1 and PC2 both have ar
 
 Our virst Mall Customer K-mean visuals shows that there is a distribution of 6 clusters:
 
-**Cluster 6 and 4*: Representing the customer_data with the medium income salary as well as the medium annual spend of salary.
+    **Cluster 6 and 4*: Representing the customer_data with the medium income salary as well as the medium annual spend of salary.
 
-**Cluster 1*: Represents the customer_data having a high annual income with high yearly spending.
+    **Cluster 1*: Represents the customer_data having a high annual income with high yearly spending.
 
-**Cluster 3*: Denoting the customer_data with low annual income with a low yearly spending of income
+    **Cluster 3*: Denoting the customer_data with low annual income with a low yearly spending of income
 
-**Cluster 2*: Denotes a high annual income and low yearly spending.
+    **Cluster 2*: Denotes a high annual income and low yearly spending.
 
-**Cluster 5*: Represening a low annual income with a high yearlt spending.
+    **Cluster 5*: Represening a low annual income with a high yearlt spending.
 
+### PCA1 and PCA2 k-means Results
+
+![k-means clusters for PCA1 and PCA2](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/k-means%20cluster.JPG)
+
+    **Cluster 4 and 1*: These two clusters shows the customers with medium PCA1 and medium PCA2 scores
+
+    **Cluster 6*: Representing customers with a high PCA2 and a low PCA1 score
+
+    **Cluster 5*: Customers with a medium PCA1 and a low PCA2 score
+
+    **Cluster 3*: Customers with a high PCA1 income and a high PCA2
+
+    **Cluster 2*: Customers with a high PCA2 and a medium annual spend of income.
+    
+Clustering can help stakeholders understand the variables a lot better, promoting better business decisions. With identifying customers, organizations can create and release products and services that aim more towards customers based on several parameters like spending patterns, age, and income. Based on our clustering, customers with a medium income spends more regularly based on their medium annual spending of their salary. 
+
+# Summary
+
+Going through the customer segmentation model, we developed this model by using an unsupervised machine learning. Clustering algorithms called K-means clustering, we analyzed and pushed visualization to show the data and then proceeded to implement the algorithm to better understand the type of customer the Mall needs to focus on for higher sales.
