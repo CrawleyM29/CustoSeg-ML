@@ -20,15 +20,15 @@ Creating visuals helps us understand what the data is trying to tell us a lot qu
 
 By the barplot, we can see that tne number of females is higher than male customers.  Using a pie chart can help us see by how much percentage wise.
 
-[Gender Ratio](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Male_Female%20Ratio%20Pie%20Chart.JPG)
+![Gender Ratio](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Male_Female%20Ratio%20Pie%20Chart.JPG)
 
 Mall customers are 56% females and 44% males.  This is a 12% difference to our Mall customers. Now that we have an idea of what gender tends to shop the most at the Mall, lets look at the ages of our customers.
 
-[Age Summary](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AgeSummary.JPG)
+![Age Summary](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AgeSummary.JPG)
 
-[Age Count Histogram](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Age%20Count%20Histogram.JPG)
+![Age Count Histogram](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Age%20Count%20Histogram.JPG)
 
-[Descriptive Analysis of Age](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Age%20DescriptiveAnalysis%20Boxplot.JPG)
+![Descriptive Analysis of Age](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Age%20DescriptiveAnalysis%20Boxplot.JPG)
 
 Baste on the Histogram and Boxplot, we can see that the maximum customer ages are between 30 and 35, while our minium customer age is 18, maxium customer age is 70.
 
@@ -36,9 +36,9 @@ Baste on the Histogram and Boxplot, we can see that the maximum customer ages ar
 
 We now want to see what the annual income of our customers at the Mall is through visualizations.  We can do this using histogram and a density plot.
 
-[Annual Income Histogram Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AnnualIncome%20Histogram.JPG)
+![Annual Income Histogram Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AnnualIncome%20Histogram.JPG)
 
-[Annual Income Density Plot](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Annual%20Income%20Density%20Plot.JPG)
+![Annual Income Density Plot](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/Annual%20Income%20Density%20Plot.JPG)
 
 
 
