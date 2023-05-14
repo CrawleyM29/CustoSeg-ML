@@ -70,5 +70,21 @@ Using the average silhouette method can help us measure the quality of our clust
 
 ![k2 to k10 Silhouettes](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/k%20means%20codes.JPG)
 
+![k2 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k2%200.29.JPG)
 
+![k3 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k3%200.38.JPG)
+
+![k4 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k4%200.41.JPG)
+
+![k5 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k5%200.44.JPG)
+
+![k6 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k6%200.45.JPG)
+
+![k7 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k7%200.44.JPG)
+
+![k8 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k8%200.43.JPG)
+
+![k9 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k9%200.41.JPG)
+
+![k10 Silhouette Results](https://github.com/CrawleyM29/CustoSeg-ML/blob/data-engineering/Customer%20Segmentation/Visuals/AverageSilhouette%20k10%200.38.JPG)
 
